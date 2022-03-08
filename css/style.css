@@ -34,6 +34,19 @@ html{
      width: 20%;
      text-align: center;
  }
+
+ .text:nth-of-type(3){
+     color: green;
+ }
+
  #red{
      background-color: red;
+ }
+
+ #green{
+     background-color: green;
+ }
+
+ #yellow{
+     background-color: yellow;
  }
