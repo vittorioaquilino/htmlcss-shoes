@@ -6,5 +6,34 @@
 }
 
 html{
-    font-family: 'Bungee', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
 }
+
+/* COMMON */
+.abs-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
+
+/* SHOES */
+.shoes-container{
+     height: 100vh;
+     position: relative;
+    /* background-color: red; */
+ }
+
+ .box-image{
+     width: 250px;
+ }
+
+ .text{
+     color: yellow;
+     width: 20%;
+     text-align: center;
+ }
+ #red{
+     background-color: red;
+ }
