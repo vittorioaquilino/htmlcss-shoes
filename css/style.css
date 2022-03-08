@@ -21,11 +21,12 @@ li{
     background-color: white;
     border-radius: 1em;
     text-align: center;
-    vertical-align: middle;
+    line-height: 30px;
     font-size: small;
 }
+
 /* COMMON */
-.abs-center {
+.content{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,12 +55,12 @@ li{
  }
 
  .box-image{
-     width: 250px;
+     width: 350px;
  }
 
+ /* color text */
  .text{
      color: yellow;
-     width: 20%;
      text-align: center;
  }
 
