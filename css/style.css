@@ -10,6 +10,20 @@ html{
     scroll-behavior: smooth;
 }
 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 1em;
+    text-align: center;
+    vertical-align: middle;
+    font-size: small;
+}
 /* COMMON */
 .abs-center {
     position: absolute;
@@ -18,10 +32,24 @@ html{
     transform: translate(-50%, -50%);
 }  
 
+/* MENU */
+.menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* SHOES */
 .shoes-container{
      height: 100vh;
      position: relative;
+
     /* background-color: red; */
  }
 
@@ -35,10 +63,14 @@ html{
      text-align: center;
  }
 
- .text:nth-of-type(3){
+ #last-text{
      color: green;
  }
+ /* .text:nth-of-type(3){
+     color: green;
+ } */
 
+ /* color description */
  #red{
      background-color: red;
  }
