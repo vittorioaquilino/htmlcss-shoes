@@ -25,12 +25,17 @@ li{
     font-size: small;
 }
 
+img{
+    width: 100%;
+}
+
 /* COMMON */
 .content{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }  
 
 /* MENU */
@@ -55,13 +60,13 @@ li{
  }
 
  .box-image{
-     width: 350px;
+     width: 450px;
  }
 
  /* color text */
  .text{
      color: yellow;
-     text-align: center;
+     font-size: 2em;
  }
 
  #last-text{
